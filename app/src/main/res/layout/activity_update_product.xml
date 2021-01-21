@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProduct">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:paddingTop="80px"
+        android:id="@+id/updateProductImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:padding="80px"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="25sp"
+                android:text="Product Name:-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="text"
+                android:paddingLeft="40dp"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/updateProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:text="Product Stock:-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="number"
+                android:paddingLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/updateProductStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:text="Product Price:-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="number"
+                android:paddingLeft="40dp"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/updateProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:text="Product Description:-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/updateProductDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <Button
+        android:textColor="@color/White"
+        android:background="@drawable/mybutton"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/updateProductObjectBtn"
+        android:text="Update"
+        android:layout_width="150dp"
+        android:layout_height="60dp" />
+
+</LinearLayout>
